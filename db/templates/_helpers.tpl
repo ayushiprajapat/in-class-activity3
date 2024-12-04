@@ -50,7 +50,7 @@ Selector labels
 {{- define "db.selectorLabels" -}}
 app.kubernetes.io/name: {{ include "db.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
-id: c0910080
+id: c0911608
 {{- end }}
 
 {{/*
